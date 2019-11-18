@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WEBD3100 Assignment E: Contact Form</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="wrap">
+
+		
+<div id="container">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a class="selected" href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+</div>
+		
+		<div class="container">
+
+			<div class="row justify-content-between info-form-wrap">
+				<!-- left -->
+				<div class="container col-md-5 form-left align-self-end">
+					<div class="left-letter-wrap">
+						<h4>Darin Kim</h4>
+						<div class="left-addr">
+							<p>5685 Leeds St,</p>
+							<p>Halifax, NS B3K 2T3</p>
+						</div>
+						<div class="left-site-tel">
+							<p>mysite.com/darin.kim</p>
+							<p>Tel:902-579-9790</p>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- right form -->
+				<div class="container col-md-6 form-right">
+
+					<h3 class="mb-5">Contact Me :)</h3>
+					<form>
+						<!-- Personal info -->
+						<h5 class="mb-3 mt-4">Personal Info</h5>
+						<div class="form-row">
+
+							<div class="form-group col-md-6 mb-0">
+								<input type="text" class="form-control" id="inputFirstName" placeholder="First Name*">
+							</div>
+
+							<div class="form-group col-md-6 mb-0">
+								<input type="text" class="form-control" id="inputLastName" placeholder="Last Name*">
+							</div>
+						</div>
+
+						<!-- email phone preference -->
+						<h5 class="mb-3 mt-4">How to Contact You</h5>
+
+						<div class="form-group">
+							<input type="text" class="form-control" id="inputEmail" placeholder="Email*">
+						</div>
+
+						<div class="form-group">
+							<input type="text" class="form-control" id="inputPhone" placeholder="Phone">
+						</div>
+
+						<div class="form-group">
+							<!-- <label for="inputPreferredMethod">Preferred Method of Contact</label> -->
+							<select id="inputPreferredMethod" class="form-control">
+								<option selected>Method of contact(preferred)</option>
+								<option>Email will be fine</option>
+								<option>Just call me!</option>
+								<option>Can you send me a text message?</option>
+							</select>
+						</div>
+
+						<!-- message -->
+						<h5 class="mb-3 mt-4">Message</h5>
+
+						<div class="form-group">
+							<label class="col-form-label pt-0">Reason For Contact</label>
+							<div class="">
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+									<label class="ml-2 form-check-label" for="gridRadios1">
+										General Inquiry
+									</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+									<label class="ml-2 form-check-label" for="gridRadios2">
+										I was bored
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<textarea class="form-control mt-4" id="inputComments" rows="3" placeholder="comments"></textarea>
+						</div>
+						<div class="container">
+							<div class="row justify-content-end">
+								<button type="submit" class="mt-4 px-3 btn btn-primary">Submit</button>
+							</div>
+
+						</div>
+
+
+
+					</form>
+				</div>
+
+				<div class="container col-md-1 form-filler align-self-end"></div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer class="page-footer font-small text-white">
+			<div class="footer-copyright text-center py-3">© 2019 Copyright:
+				<a href="#">mysite.com/darin.kim</a>
+			</div>
+		</footer>
+		<!-- Footer -->
+	</div>
+
+</body>
+</html>
